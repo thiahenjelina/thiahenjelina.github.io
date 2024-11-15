@@ -1,0 +1,264 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Makan FUJA</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f688cd ; /* Warna latar belakang header */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            width: 50px; /* Ukuran logo */
+            height: auto;
+            margin-right: 15px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            width: 100;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+        footer h3 {
+            margin-top: 0;
+        }
+        footer p, footer form {
+            margin: 10px 0;
+        }
+        footer form label {
+            display: block;
+            margin: 5px 0;
+        }
+        footer form input[type="text"], 
+        footer form input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        footer form input[type="radio"], 
+        footer form input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        footer form input[type="submit"] {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer form input[type="submit"]:hover {
+            background-color: #ff4500;
+        }
+        footer div.social-icons {
+            margin-top: 15px;
+        }
+        footer div.social-icons a img {
+            margin: 0 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://packagepadang.com/wp-content/uploads/2024/04/Rumah-Makan-Fuja.jpg" alt="Logo Restoran"> <!-- Ganti "logo.png" dengan path logo Anda -->
+        <h1>Rumah Makan FUJA</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di Rumah Makan Fuja</h2>
+            <p>Restoran ini menawarkan hidangan spesial yang terbuat dari bahan-bahan segar dan berkualitas. Rumah makan ini menyediakan seafood dan makanan laut lainnya yang segar dan fresh.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLWKhWcF_lv59Ng5WmYo1PNykP-HLdk3lWQ&s" alt="Gambar Restoran" style="display: block; margin: 0 auto;">
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <!-- Tabel Menu -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Makanan</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://asset.kompas.com/crops/TDPZbS20DNsdoD1ySXMOdkpe1yc=/0x0:1000x667/1200x800/data/photo/2020/12/17/5fdb3cd0c1525.jpg" alt="Ikan Bakar" width="100"></td>
+                        <td>Ikan Bakar</td>
+                        <td>Rp45.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://images.tokopedia.net/img/KRMmCm/2022/8/16/fb237cb7-091d-494e-8d86-fdc1a5c3d69f.jpg" alt="Udang Saus Padang" width="100"></td>
+                        <td>Udang Saus Padang</td>
+                        <td>Rp30.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://assets.promediateknologi.id/crop/0x0:0x0/750x0/webp/photo/p1/79/2023/09/20/Seafood-enak-di-Bandung6-1950518353.jpeg" alt="Seafood" width="100"></td>
+                        <td>Seafood</td>
+                        <td>Rp40.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn.idntimes.com/content-images/community/2023/08/ins-saver-868477387-b92c30be9bda955e59d280759a6f55b9.jpg" alt="Ayam Panggang" width="100"></td>
+                        <td>Ayam Panggang</td>
+                        <td>Rp25.000</td>
+                    </tr>
+ 
+                </tbody>
+
+            </table>
+<table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Makanan</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://down-id.img.susercontent.com/file/id-11134201-23020-dihp0p8c6wnv8d" alt="Aneka Jus" width="100"></td>
+                        <td>Aneka Jus</td>
+                        <td>Rp45.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://img-global.cpcdn.com/recipes/78c6e03a3c2abd39/400x400cq70/photo.jpg" alt="Es Cappucino" width="100"></td>
+                        <td>Es Cappucino</td>
+                        <td>Rp20.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/217/2024/10/07/kopi-americano-2500973096.jpg" alt="Americano" width="100"></td>
+                        <td>Americano</td>
+                        <td>Rp15.000</td>
+                    </tr>
+                   
+                    </tr>
+ <tr>
+                        <td><img src="https://cdn.yummy.co.id/content-images/images/20230116/tSxHhwBkIr2TzN6CKXRbFFTYG5g9R1NP-31363733383730313430d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/resize,w_388,h_388,m_fixed,x-oss-process=image/format,webp" alt="Es Cendol Durian" width="100"></td>
+                        <td>Es Cendol Durian</td>
+                        <td>Rp20.000</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimoni Pelanggan</h2>
+            <ol>
+                <li>"Ikan dan Udangnya the best, bumbunya enak, tingkat kematangannya pas!" – Ardian</li>
+                <li>"Enak, bumbu yang dicampur dengan santan fresh." – Dzulfikar</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h3>Kontak Kami</h3>
+        <p>Alamat: Jl. Samudra No.24, Purus, Kec. Padang Barat, Kota Padang, Sumatra Barat</p>
+        <p>Telepon: 0811-664-443 | Email: rumahmakanfuja@gmail.com</p>
+        
+        <!-- Formulir Reservasi -->
+        <h3>Formulir Reservasi</h3>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Tanggal Reservasi:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label>Jumlah Tamu:</label>
+            <input type="radio" id="2pax" name="guests" value="3" required> 3 Orang<br>
+            <input type="radio" id="4pax" name="guests" value="5"> 5 Orang<br>
+            <input type="radio" id="morepax" name="guests" value="more"> Lebih dari 5 Orang<br><br>
+
+            <input type="checkbox" id="terms" name="terms" required> Saya setuju dengan syarat dan ketentuan<br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+
+        <!-- Tautan Media Sosial -->
+        <div class="social-icons">
+            <h3>Ikuti Kami di Media Sosial</h3>
+            <a href="https://rumah-makan-fuja-indonesia.food96.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/restoranmu" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/480px-Instagram_logo_2022.svg.png" width="30" height="30">
+            </a>
+            <a href="https://twitter.com/restoranmu" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1245px-Logo_of_Twitter.svg.png" alt="Twitter" width="30" height="30">
+            </a>
+        </div>
+
+        <!-- Google Maps Iframe -->
+        <h3>Lokasi Kami</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.279721665818!2d100.34912847584876!3d-0.941452899049436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9336ceec2fd%3A0xf9bbd37781b90dc6!2sRumah%20Makan%20Fuja!5e0!3m2!1sid!2sid!4v1731655485353!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+
+</body>
+</html>
